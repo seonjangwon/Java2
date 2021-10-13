@@ -1,0 +1,11 @@
+package day05_20211008;
+
+public class Ex04_Random {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println((int)(math.random()*10)+1);
+
+	}
+
+}

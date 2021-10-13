@@ -1,0 +1,10 @@
+package buffered_ex;
+
+public class Ex00_int {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

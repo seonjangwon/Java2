@@ -1,0 +1,12 @@
+package buffered_ex;
+
+public class Ex00_int {
+
+	public static void main(String[] args) {
+		int num1 = 5;
+		num1 = 0+num1;
+		String.valueOf(num1);
+		System.out.println(num1);
+	}
+
+}

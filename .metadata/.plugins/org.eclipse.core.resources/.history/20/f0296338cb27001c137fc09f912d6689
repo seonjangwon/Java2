@@ -1,0 +1,46 @@
+package day05_20211008;
+
+import java.io.*;
+
+public class Ex01_While {
+
+	public static void main(String[] args) {
+		/*
+		 *  이제부터 출력 입력은 버퍼로 한다
+		 *  
+		 *  while문
+		 *  1부터 3까지 출력하기
+		 *  
+		 *  
+		 */
+//		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+		
+		int i = 1;
+		
+		while (i<=3) {
+			System.out.println(i);
+			i++;
+//			bw.write(String.valueOf(i));
+		}
+		
+		do {
+			System.out.println(i);
+		} while (i <=3);
+		
+		System.out.println(i);
+		for (int j = 1; j<=3; j++) {
+			System.out.println(j);
+//			bw.write(String.valueOf(j));
+		}
+		
+//		bw.flush();
+//		bw.close();
+//		
+//		br.close();
+		
+		
+
+	}
+
+}

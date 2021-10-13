@@ -1,0 +1,17 @@
+package buffered_ex;
+
+import java.io.*;
+
+public class Ex02_BufferedReader {
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		String var = "";
+		
+		var = br.readLine();
+		
+		
+		
+	
+	}
+}
