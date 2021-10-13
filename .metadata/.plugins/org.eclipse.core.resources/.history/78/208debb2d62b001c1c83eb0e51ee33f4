@@ -1,0 +1,30 @@
+package day07_20211013;
+
+public class Ex00_BjA {
+
+	public static void main(String[] args) {
+		// 백준 알고리즘 최댓값 최솟값구하기
+
+		int a[] = { 1, 85, 10, 58, 200 };// 이게 주어진 배열
+		int b[] = new int[2];// 여기에 최솟값 최댓값을 넣을 거야
+		int max = a[0]; // max구하기?
+		int min = a[1];
+		for (int i = 0; i < a.length; i++) {
+			if (a[i] < min) {
+				min = a[i];
+			}
+		}
+
+		for (int i = 0; i < a.length; i++) {
+			if (a[i] > max) {
+				max = a[i];
+			}
+		}
+		b[1] = max;
+		b[0] = min;
+
+		System.out.println(b[0]);
+		System.out.println(b[1]);
+	}
+
+}

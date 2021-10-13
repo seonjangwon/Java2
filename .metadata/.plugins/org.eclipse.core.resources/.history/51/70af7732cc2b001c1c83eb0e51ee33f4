@@ -1,0 +1,50 @@
+package day07_20211013;
+
+public class Ex02_Array {
+
+	public static void main(String[] args) {
+		/*
+		 * 배열
+		 * 정수 타입의 number 배열 객체선언
+		 */
+		// 값도 없고 크기도 정해지지 않은 상태
+		int[] num1;
+//		System.out.println(num1[0]); // 값이 들어있지 않아서 사용 할 수 없다
+		int num2[];
+		int[] num3 = null;
+		String[] strvars = null;
+		
+		// 배열 선언하면서 초깃값을 지정
+		int[] num4 = {1, 3, 33, 544}; // 문자, 실수 불가능  
+		System.out.println(num4[1]);
+		String[] strvar1 = {"가나", "다라", "ab", "cd"};// 정수, 실수 불가능
+		System.out.println(strvar1[0]);
+		
+		// 배열에 저장된 값 출력하기 (인덱스 활용)
+		System.out.println(num4[0]);
+		System.out.println(num4[1]);
+		System.out.println(num4[2]);
+		System.out.println(num4[3]);
+		System.out.println(num4);// 이건 깨지네
+//		System.out.println(num4[4]); //오류다요!!!
+		System.out.println(strvar1[0]);
+		System.out.println(strvar1[1]);
+		System.out.println(strvar1[2]);
+		System.out.println(strvar1[3]);
+		System.out.println(strvar1);// 이것도 깨지고
+		
+		
+		//배열 데이터 바꾸기
+		//num4 2번 인데스에 99 저장
+		System.out.println(num4[2]);
+		num4[2] = 99;
+		System.out.println(num4[2]);
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+package day07_20211013;
+
+public class Ex05_ArrayEx {
+
+	public static void main(String[] args) {
+		/*
+		 * 
+		 * 
+		 */
+		int[] num = null;
+		System.out.println(num.length);
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
