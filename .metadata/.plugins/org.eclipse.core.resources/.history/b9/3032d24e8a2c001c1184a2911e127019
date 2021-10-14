@@ -1,0 +1,39 @@
+package day08_20211014;
+
+import java.util.Arrays;
+
+public class Ex01_ArraySort {
+
+	public static void main(String[] args) {
+		// 정렬 알고리즘
+		// for문을 이용해서?
+		// 변수를 5개를 만들어서 하나씩 넣고 순서대로
+		// 최소값을 구하고 아니 구해서 뭐 어쩔건데
+		// 최소값을 0에 넣으면 0에 있는 숫자를 가져올 방법이 없잔아
+		// 한방에 촥촥촥 하는 방법이 있나
+		// 0 =최솟값 1 >최솟값 2 >1
+
+		int[] num = { 3, 2, 1, 4, 5 };
+		int min1 = 0, min2 = 10; // 최소값을 넣을거야
+		int[] min = new int[5];
+
+		for (int i = 0; i < num.length; i++) {
+			if (num[i] < min2) {
+				min1 = num[i];// 이거는 최솟값
+			}
+			min[i]=min1;
+			for (int j= 0; j<num.length;i++ ) {
+				
+			}
+		}
+
+//		Arrays.sort(num);
+		System.out.println(min[0]);
+		System.out.println(min[1]);
+		System.out.println(min[2]);
+		System.out.println(min[3]);
+		System.out.println(min[4]);
+
+	}
+
+}
