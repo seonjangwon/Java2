@@ -1,0 +1,21 @@
+package day09_20211015;
+
+public class StudentMain {
+
+	public static void main(String[] args) {
+		// 
+		
+		Student st1 = new Student();
+		
+		
+		Student st2 = new Student("이름","14","학과",27);
+		
+		Student st3 = new Student("이름", "14");
+		
+		Student st1 = new Student("14","학과",27);
+		
+		
+
+	}
+
+}

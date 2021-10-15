@@ -1,0 +1,9 @@
+package day09_20211015;
+
+public class People {
+	//필드 선언
+	String name;
+	int age;
+	String nation;
+
+}

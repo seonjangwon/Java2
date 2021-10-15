@@ -1,0 +1,22 @@
+package day09_20211015;
+
+public class Calculator {
+	// 덧셈용 메서드 선언
+	
+	// 리턴이 있는 메서드
+	/*
+	 * 리턴 타입 : int
+	 * 메서드 이름 : add1
+	 * 매개변수 없음
+	 * 
+	 */
+	
+	int add1() {
+		int num1= 10;
+		int num2 = 20;
+		int sum =0;
+		sum = num1 +num2;
+		return sum;
+	}
+
+}

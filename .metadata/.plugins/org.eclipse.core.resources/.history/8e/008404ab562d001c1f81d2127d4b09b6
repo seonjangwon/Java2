@@ -1,0 +1,39 @@
+package day09_20211015;
+
+public class PeopleMain {
+
+	public static void main(String[] args) {
+		// 기본생성자를 활용한 people 클래스 객체 선언
+		People p1 = new People();
+		// People 클래스 타입의 변수 p1
+		
+		// 필드 활용
+		// p1 객체의 name 필드에 이름1 이라는 데이터 저장
+		System.out.println(p1.name);
+		p1.name = "이름1";
+		System.out.println(p1.name);
+		
+		People p2 = new People();
+		p2.name= "이름2";
+		System.out.println(p1.name);
+		System.out.println(p2.name);
+		p1.age = 10;
+		p1.nation = "대한민국";
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
