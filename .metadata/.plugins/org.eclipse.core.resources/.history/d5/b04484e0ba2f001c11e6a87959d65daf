@@ -1,0 +1,46 @@
+package day10_20211018;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Ex00_BJA4344 {
+
+	public static void main(String[] args) throws IOException {
+		// 백준알고리즘 4344번
+		// 학원에 풀던거 있는데 다시해야해
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int test = 0; // 테스트 숫자를 받을거얌
+		int student = 0; // 학생 숫자
+		int sorce = 0; // 점수
+		int student2=0;// 평균을 넘는 애들 숫자
+		int count=0;
+		double sum = 0.0; // 평균용
+		double average = 0.0;
+
+		int[] list = null;// 학생들 점수 넣을 배열 크기는 학생숫자를 받아서 입력
+
+		test = br.read();
+
+		for (int i = 0; i < test; i++) {// 2줄부터 나눠야하니
+			student = br.read(); // 처음 숫자는 학생수
+			list = new int[student]; // 학생수만큼 배열 크기 지정
+			for (int j=0;j<student;j++) {// 학생 점수 입력
+				sorce = br.read();
+				list[i]= sorce;	
+			}
+			for (int s= 0; s<student;s++) {//평균을 구하자?
+				sum+=list[s];
+			}
+			average=sum/student; // 평균
+			for(int j=0;j<student;j++) {//평균보다 높은애들 구하기
+				if (average<list[j]) {
+					student2++;
+				}	
+			}
+			System.out.println((double)student2/ student);
+		}
+
+	}
+
+}
