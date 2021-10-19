@@ -4,7 +4,6 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.util.Scanner;
-//import java.util.StringTokenizer;
 
 public class Ex00_BJA_1712 {
 
