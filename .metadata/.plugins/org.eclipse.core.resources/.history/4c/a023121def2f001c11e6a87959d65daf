@@ -1,0 +1,42 @@
+package day10_20211018;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class Ex00_BJA_1712 {
+
+	public static void main(String[] args) throws IOException {
+		// 백준 알고리즘 1712번
+		// 손익분기점
+		// 고정지출 A 생상지출 B 물건가격C
+		// 물건 몇대를 팔아야지 손익 분기점을 넘기는가
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		int num1 = 0; // A
+		int num2 = 0; // B
+		int num3 = 0; // C
+		int sum1 = 0;
+		String var = "";
+		boolean run = true;
+		int i =0;
+		
+		var = br.readLine();
+		StringTokenizer st= new StringTokenizer(var);
+		num1 = Integer.parseInt(st.nextToken());
+		num2 = Integer.parseInt(st.nextToken());
+		num3 = Integer.parseInt(st.nextToken());
+		
+		while(run)  {
+			i++;					
+			sum1 = (num3*i) - (num2*i);
+			if (sum1 == num1) {
+				run=false;
+			}
+		} 
+		System.out.println(i);
+		
+	}
+
+}

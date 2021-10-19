@@ -1,0 +1,35 @@
+package day10_20211018;
+
+public class MemberMain {
+
+	public static void main(String[] args) {
+		// 로그인 시스템?
+		Member m1 = new Member();
+		
+		m1.memberJoin("captain", "1234", "선장원", "wkddnjs");
+		
+		System.out.println(m1.id);
+		System.out.println(m1.pw);
+		System.out.println(m1.name);
+		System.out.println(m1.email);
+		
+		
+		if (m1.memberLogin("captain", "12324")) {
+			System.out.println("로그인 성공");
+		} else {
+			System.out.println("로그인 실패");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

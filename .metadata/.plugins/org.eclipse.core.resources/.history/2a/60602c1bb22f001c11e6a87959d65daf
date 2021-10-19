@@ -1,0 +1,28 @@
+package day10_20211018;
+
+public class TraineeMain {
+
+	public static void main(String[] args) {
+		// 교육생 등록
+		Trainee t1 = new Trainee("선장원", 27, "010-4050-1203", false);
+		
+		// 등록 확인
+		System.out.println(t1.name);
+		System.out.println(t1.age);
+		System.out.println(t1.phone);
+		System.out.println(t1.major);
+		
+		// 변경
+		t1.afterSignUp(28,true);
+		System.out.println("변경후");
+		System.out.println(t1.name);
+		System.out.println(t1.age);
+		System.out.println(t1.phone);
+		System.out.println(t1.major);
+		
+		
+		
+
+	}
+
+}
