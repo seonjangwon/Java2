@@ -1,0 +1,25 @@
+package day09_20211015;
+
+public class CalculatorMain {
+
+	public static void main(String[] args) {
+		// 덧셈
+		int num1 = 10;
+		int num2 = 20;
+		int sum = 0 ;
+		
+		sum = num1+num2;
+		System.out.println(sum);
+		
+		// 덧셈을 수행하기 위한 메서드만 호출하는 코드
+		
+		Calculator cal1 = new Calculator();
+		// add1 메서드 호출
+		System.out.println(cal1.add1());
+		
+		System.out.println(cal1.add2(20,30));
+		
+
+	}
+
+}
