@@ -60,6 +60,18 @@ public class Ex01_ArrayList {
 		// Wrapper 클래스
 		List<Integer> list2 = new ArrayList<Integer>();
 		
+		list2.add(123);
+		int num1 = 12345;
+		list2.add(num1); // int 타입으로 변수를 만들어서 넣는 것도 가능
+		
+		Integer num2 = 20; // Integer클래스 타입의 참조형 변수
+		list2.add(num2);
+		
+		
+		
+		
+		
+		
 		
 
 	}
