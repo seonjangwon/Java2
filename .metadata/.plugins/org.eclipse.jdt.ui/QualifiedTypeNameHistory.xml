@@ -4,4 +4,5 @@
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="day16_20211026.ClientDTO"/>
 </qualifiedTypeNameHistroy>

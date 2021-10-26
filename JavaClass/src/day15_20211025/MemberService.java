@@ -20,7 +20,7 @@ public class MemberService {
 		String email = sc.nextLine();
 		MemberDTO m = new MemberDTO(id, pw, name, email);
 		m.setMemberNumber(mMap.size()+1);
-		mMap.put(mMap.size(), m); // 그럼 0부터 들어가겠지
+		mMap.put(mMap.size()+1, m); // 그럼 1부터 들어가겠지
 		return mMap;
 	}
 	
@@ -49,6 +49,23 @@ public class MemberService {
 		}else {
 			System.out.println("아이디와 비밀번호가 틀렸습니다.");
 		}
+		
+		//foreach문
+//		MemberDTO member = null;
+//		for (Integer memberKey : mMap.keySet()) {
+//			member = mMap.get(memberKey);
+//			
+//			if (id.equals(member.getId())&& pw.equals(member.getId())) {
+////			if (id.equals(mMap.get(memberkey).getId())
+////				&& pw.equals(mMap.get(memberkey).getId()))
+//				loginNum=memberKey;
+//			}
+//		}
+//		if (loginNum>=0) {
+//			System.out.println(mMap.get(loginNum).getName()+"님 환영합니다");
+//		}else {
+//			System.out.println("아이디와 비밀번호가 틀렸습니다.");
+//		}
 		
 	}
 	

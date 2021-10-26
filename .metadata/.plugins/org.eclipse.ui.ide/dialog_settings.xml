@@ -6,6 +6,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\development\source\Java\JavaClass\src\day15_20211025"/>
+			<item value="D:\development\source\Java\JavaClass"/>
 			<item value="D:\development_sjw\source\java\JavaClass\src"/>
 		</list>
 	</section>
