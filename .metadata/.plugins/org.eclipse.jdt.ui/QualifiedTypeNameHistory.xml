@@ -7,4 +7,5 @@
     <fullyQualifiedTypeName name="day16_20211026.ClientDTO"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.lang.System.LoggerFinder"/>
 </qualifiedTypeNameHistroy>
